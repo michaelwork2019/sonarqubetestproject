@@ -15,7 +15,8 @@ namespace WebApplication2.Pages
         public void OnGet()
         {
             string a = "test";
-            message = "You are good.";
+            a = "successfully";
+            message = a;
 
         }
     }

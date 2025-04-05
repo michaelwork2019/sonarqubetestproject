@@ -22,7 +22,7 @@ namespace TestProject
             var mocklogger = new Mock<ILogger<IndexModel>>();
             var pagemodel = new IndexModel(mocklogger.Object);
             pagemodel.OnGet();
-            Assert.AreEqual("You are good.", pagemodel.message);
+            Assert.AreEqual("successfully", pagemodel.message);
         }
     }
 }
